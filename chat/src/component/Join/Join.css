@@ -1,0 +1,62 @@
+.JoinPage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinContainer img{
+    margin-top: 10px;
+    width: 10vmax;
+}
+
+.JoinContainer > h1 {
+    color: aliceblue;
+    font-size: 2.5vmax;
+    width: 25vmax;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 30vmax;
+    border-bottom: 0.2vmax solid aliceblue;
+    text-align: center;
+    padding: 1vmax;
+    box-sizing: border-box;
+    
+}
+
+#joinInput{
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.4vmax;
+    margin: 2vmax;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.4vmax;
+    background-color:#226B80;
+    border-radius: 7px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.joinbtn:hover{
+    background-color: rgb(80, 145, 145);
+}
