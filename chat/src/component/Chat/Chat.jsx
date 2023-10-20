@@ -15,7 +15,7 @@ import closeIcon from '../../assets/close.png'
 
 let socket;
 
-const ENDPOINT = "http://localhost:4501/"
+const ENDPOINT = "https://persian-blue-narwhal-cuff.cyclic.app/"
 function Chat() {
     const [id, setid] = useState("")
     const [messages, setMessages] = useState([])
