@@ -15,7 +15,7 @@ import closeIcon from '../../assets/close.png'
 
 let socket;
 
-const ENDPOINT = "https://persian-blue-narwhal-cuff.cyclic.app/"
+const ENDPOINT = "http://localhost:4501/"
 function Chat() {
     const [id, setid] = useState("")
     const [messages, setMessages] = useState([])
@@ -82,6 +82,7 @@ console.log(messages)
                 <input onKeyPress={(event)=>event.key === 'Enter' ? send() : null} type="text" id='chatInput'/>
                 <button onClick={send} className='sendBtn'><img src={sendLogo} alt='Send'/></button>
                 </div>
+                
         </div>
        
     </div>
